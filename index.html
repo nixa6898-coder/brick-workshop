@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brick Workshop 5.9.13</title>
+<meta name="description" content="Independent mod tool for a block game on Android. Runs offline on your device.">
+<style>
+  :root { --bg:#f6f7fb; --card:#fff; --text:#1d2433; --muted:#5b6476; --accent:#1f6fe0; --line:#e3e6ee; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12151c; --card:#1b2029; --text:#e8ebf2; --muted:#a3abbb; --accent:#5b9bff; --line:#2b3240; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { display:flex; align-items:center; gap:16px; margin-bottom: 8px; }
+  .logo { width:56px; height:56px; border-radius:14px; background:#1f6fe0; display:grid; place-items:center; flex:none; }
+  .logo span { width:34px; height:28px; background:#f7c531; border-radius:6px; display:block; }
+  h1 { font-size: 26px; margin:0; }
+  .sub { color:var(--muted); margin:0; }
+  nav { display:flex; gap:8px; margin: 20px 0; flex-wrap: wrap; }
+  nav button { border:1px solid var(--line); background:var(--card); color:var(--text); padding:6px 14px; border-radius:999px; font:inherit; cursor:pointer; }
+  nav button[aria-pressed="true"] { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px; margin: 14px 0; }
+  .dl { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:12px 22px; border-radius:10px; font-weight:700; }
+  code, .hash { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13px; word-break: break-all; }
+  h2 { font-size: 18px; margin: 0 0 8px; }
+  ul, ol { padding-left: 22px; margin: 6px 0; }
+  .legal { color:var(--muted); font-size: 14px; }
+  [data-l] { display:none; } [data-l].on { display:block; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true"><span></span></div>
+    <div><h1 id="nome">Brick Workshop 5.9.13</h1><p class="sub">Android · offline · EN / PT / ES</p></div>
+  </header>
+  <nav aria-label="Language">
+    <button data-set="en" aria-pressed="true">English</button>
+    <button data-set="pt" aria-pressed="false">Português</button>
+    <button data-set="es" aria-pressed="false">Español</button>
+  </nav>
+
+  <section data-l="en" class="on">
+    <div class="card">
+      <p>Independent mod tool for <strong>your own copy</strong> of the supported block game on Android: characters (including 19 hidden ones from the game), texts, textures, weapons, levels and a block map builder, plus an experimental PC mod converter. No internet, no ads, no data collection.</p>
+      <p><a class="dl" href="https://github.com/nixa6898-coder/brick-workshop/releases/download/v5.9.13/BrickWorkshop_5.9.13.apk" download>Download APK</a></p>
+    </div>
+    <div class="card"><h2>Requirements</h2><ul><li>Android 8.0+, 64-bit (arm64) device</li><li>The supported game (version 2.0 for Android) installed; the Game tab tells you if it works (the app does not include game files)</li><li>About 2 GB free</li></ul></div>
+    <div class="card"><h2>Install</h2><ol><li>Download the APK.</li><li>Allow "install unknown apps" for your browser or file manager. On devices with Android developer verification you may see an "unregistered developer" warning.</li><li>Open the app and follow the <strong>Game</strong> tab.</li><li>Back up the game key: Settings → Save a copy of the key.</li></ol></div>
+  </section>
+
+  <section data-l="pt">
+    <div class="card">
+      <p>Ferramenta independente de mods para a <strong>sua própria cópia</strong> do jogo de blocos compatível no Android: personagens (inclusive 19 escondidos do jogo), textos, texturas, armas, fases e um construtor de mapas de blocos, além de um conversor experimental de mods de PC. Sem internet, sem anúncios, sem coleta de dados.</p>
+      <p><a class="dl" href="https://github.com/nixa6898-coder/brick-workshop/releases/download/v5.9.13/BrickWorkshop_5.9.13.apk" download>Baixar APK</a></p>
+    </div>
+    <div class="card"><h2>Requisitos</h2><ul><li>Android 8.0 ou mais novo, aparelho de 64 bits (arm64)</li><li>O jogo compatível (versão 2.0 para Android) instalado; a aba Jogo mostra se ele serve (o app não traz arquivos do jogo)</li><li>Cerca de 2 GB livres</li></ul></div>
+    <div class="card"><h2>Instalar</h2><ol><li>Baixe o APK.</li><li>Permita "instalar apps desconhecidos" para o navegador ou gerenciador de arquivos. Em aparelhos com a verificação de desenvolvedor do Android pode aparecer o aviso "desenvolvedor não registrado".</li><li>Abra o app e siga a aba <strong>Jogo</strong>.</li><li>Guarde a chave do jogo: Ajustes → Guardar cópia da chave.</li></ol></div>
+  </section>
+
+  <section data-l="es">
+    <div class="card">
+      <p>Herramienta independiente de mods para <strong>tu propia copia</strong> del juego de bloques compatible en Android: personajes (incluidos 19 ocultos del juego), textos, texturas, armas, niveles y un constructor de mapas de bloques, más un conversor experimental de mods de PC. Sin internet, sin anuncios, sin recopilación de datos.</p>
+      <p><a class="dl" href="https://github.com/nixa6898-coder/brick-workshop/releases/download/v5.9.13/BrickWorkshop_5.9.13.apk" download>Descargar APK</a></p>
+    </div>
+    <div class="card"><h2>Requisitos</h2><ul><li>Android 8.0 o más nuevo, dispositivo de 64 bits (arm64)</li><li>El juego compatible (versión 2.0 para Android) instalado; la pestaña Juego indica si sirve (la app no incluye archivos del juego)</li><li>Unos 2 GB libres</li></ul></div>
+    <div class="card"><h2>Instalar</h2><ol><li>Descarga el APK.</li><li>Permite "instalar apps desconocidas" para el navegador o el gestor de archivos. En dispositivos con la verificación de desarrolladores de Android puede aparecer el aviso "desarrollador no registrado".</li><li>Abre la app y sigue la pestaña <strong>Juego</strong>.</li><li>Guarda la llave del juego: Ajustes → Guardar copia de la llave.</li></ol></div>
+  </section>
+
+  <p class="legal">Independent tool, not affiliated with, endorsed or sponsored by the owners of any game or of the trademarks that appear in it. The app contains no game files: names and images it shows are read from your own copy of the game. · <a href="https://github.com/nixa6898-coder/brick-workshop/blob/main/PRIVACY.md">Privacy</a> · <a href="https://github.com/nixa6898-coder/brick-workshop/blob/main/licenses/THIRD_PARTY.txt">Licenses</a> · <a href="https://github.com/nixa6898-coder/brick-workshop/releases/latest">Release notes</a> · <a href="https://github.com/nixa6898-coder/brick-workshop/releases/latest">SHA-256</a></p>
+</main>
+<script>
+  const pick = l => {
+    document.querySelectorAll('[data-l]').forEach(s => s.classList.toggle('on', s.dataset.l === l));
+    document.querySelectorAll('nav button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.set === l)));
+    document.documentElement.lang = l;
+    document.getElementById('nome').textContent = ({en:'Brick Workshop', pt:'Oficina Tijolo', es:'Taller Ladrillo'})[l] + ' 5.9.13';
+  };
+  document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => pick(b.dataset.set)));
+  const n = (navigator.language || 'en').slice(0, 2);
+  pick(['pt', 'es'].includes(n) ? n : 'en');
+</script>
+</body>
+</html>

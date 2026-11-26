@@ -1,0 +1,2 @@
+# Download page only, not the app source: keep it out of the language stats
+*.html linguist-documentation

@@ -1,0 +1,18 @@
+Brick Workshop — third-party software / Oficina Tijolo — software de terceiros / Taller Ladrillo — software de terceros
+
+Apache License 2.0 (Apache-2.0.txt)
+  - apksig 8.7.3 — The Android Open Source Project — https://android.googlesource.com/platform/tools/apksig
+  - Guava 30.1-android — Google LLC — https://github.com/google/guava
+  - Kotlin standard library, kotlinx.coroutines — JetBrains s.r.o. — https://kotlinlang.org
+  - AndroidX (Core, Activity, Compose, Material 3, Navigation, Lifecycle, DataStore) — The Android Open Source Project
+    https://developer.android.com/jetpack/androidx
+
+BSD 3-Clause License (BSD-3-dexlib2.txt)
+  - dexlib2 / util 2.5.2 — Google Inc., Ben Gruver — https://github.com/JesusFreke/smali
+
+SIL Open Font License 1.1 (Nunito_OFL.txt)
+  - Nunito font — The Nunito Project Authors — https://github.com/googlefonts/nunito
+
+Brick Workshop is an independent tool. It is not affiliated with, endorsed or sponsored by the
+owners of any game or of the trademarks that appear in it. The app does not contain or distribute
+game files: the names and images it shows are read from the copy of the game on your own device.
